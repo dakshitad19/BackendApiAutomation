@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">2</td><td class="num">10,583</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">EmpResponseMsgTest</td><td><a href="#m0">validate_msg</a></td><td rowspan="1">1648745992643</td><td rowspan="1">727</td></tr><tr class="failedodd"><td rowspan="1">com.rest.AllEmployeeTest</td><td><a href="#m1">verifyImageIsEmptyForAllEmployee</a></td><td rowspan="1">1648745994104</td><td rowspan="1">800</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">EmpRecordResponseTest</td><td><a href="#m2">employee_record_extract_response</a></td><td rowspan="1">1648745985121</td><td rowspan="1">7490</td></tr><tr class="passedodd"><td rowspan="1">com.rest.AllEmployeeTest</td><td><a href="#m3">validate_get_status_code</a></td><td rowspan="1">1648745993374</td><td rowspan="1">729</td></tr><tr class="passedeven"><td rowspan="1">com.rest.EmpRecordStatusTest</td><td><a href="#m4">single_employee_record_status_code</a></td><td rowspan="1">1648745994906</td><td rowspan="1">783</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">EmpResponseMsgTest#validate_msg</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ClassCastException: class io.restassured.path.xml.XmlPath cannot be cast to class java.lang.String (io.restassured.path.xml.XmlPath is in unnamed module of loader &apos;app&apos;; java.lang.String is in module java.base of loader &apos;bootstrap&apos;)
+	at EmpResponseMsgTest.validate_msg(EmpResponseMsgTest.java:22)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.rest.AllEmployeeTest#verifyImageIsEmptyForAllEmployee</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: Cannot parse object because no supported Content-Type was specified in response. Content-Type was &apos;text/html; charset=UTF-8&apos;.
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:95)
+	at io.restassured.internal.mapping.ObjectMapping$deserialize.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:46)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:231)
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169)
+	at com.rest.AllEmployeeTest.verifyImageIsEmptyForAllEmployee(AllEmployeeTest.java:38)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">EmpRecordResponseTest#employee_record_extract_response</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.rest.AllEmployeeTest#validate_get_status_code</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.rest.EmpRecordStatusTest#single_employee_record_status_code</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

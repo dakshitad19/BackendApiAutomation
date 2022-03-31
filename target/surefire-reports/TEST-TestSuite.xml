@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15.966" tests="5" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/zc-dakshitad/Desktop/RestAssured/target/test-classes:/Users/zc-dakshitad/Desktop/RestAssured/target/classes:/Users/zc-dakshitad/.m2/repository/io/rest-assured/rest-assured/5.0.0/rest-assured-5.0.0.jar:/Users/zc-dakshitad/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/zc-dakshitad/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/zc-dakshitad/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/zc-dakshitad/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/zc-dakshitad/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/zc-dakshitad/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/zc-dakshitad/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/zc-dakshitad/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/zc-dakshitad/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/zc-dakshitad/.m2/repository/io/rest-assured/json-path/5.0.0/json-path-5.0.0.jar:/Users/zc-dakshitad/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/zc-dakshitad/.m2/repository/io/rest-assured/rest-assured-common/5.0.0/rest-assured-common-5.0.0.jar:/Users/zc-dakshitad/.m2/repository/io/rest-assured/xml-path/5.0.0/xml-path-5.0.0.jar:/Users/zc-dakshitad/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/zc-dakshitad/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/zc-dakshitad/.m2/repository/io/qameta/allure/allure-testng/2.17.3/allure-testng-2.17.3.jar:/Users/zc-dakshitad/.m2/repository/io/qameta/allure/allure-java-commons/2.17.3/allure-java-commons-2.17.3.jar:/Users/zc-dakshitad/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/zc-dakshitad/.m2/repository/io/qameta/allure/allure-model/2.17.3/allure-model-2.17.3.jar:/Users/zc-dakshitad/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/zc-dakshitad/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/zc-dakshitad/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/zc-dakshitad/.m2/repository/io/qameta/allure/allure-test-filter/2.17.3/allure-test-filter-2.17.3.jar:/Users/zc-dakshitad/.m2/repository/org/apache/poi/poi-ooxml/5.2.2/poi-ooxml-5.2.2.jar:/Users/zc-dakshitad/.m2/repository/org/apache/poi/poi/5.2.2/poi-5.2.2.jar:/Users/zc-dakshitad/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/zc-dakshitad/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/zc-dakshitad/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.2/poi-ooxml-lite-5.2.2.jar:/Users/zc-dakshitad/.m2/repository/org/apache/xmlbeans/xmlbeans/5.0.3/xmlbeans-5.0.3.jar:/Users/zc-dakshitad/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/zc-dakshitad/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/zc-dakshitad/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/zc-dakshitad/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/zc-dakshitad/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/18/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/zc-dakshitad/Desktop/RestAssured/target/surefire/surefirebooter7492349343003484525.jar /Users/zc-dakshitad/Desktop/RestAssured/target/surefire 2022-03-31T22-29-44_345-jvmRun1 surefire15754950121451830722tmp surefire_015687077464660310881tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/zc-dakshitad/Desktop/RestAssured/target/test-classes:/Users/zc-dakshitad/Desktop/RestAssured/target/classes:/Users/zc-dakshitad/.m2/repository/io/rest-assured/rest-assured/5.0.0/rest-assured-5.0.0.jar:/Users/zc-dakshitad/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/zc-dakshitad/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/zc-dakshitad/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/zc-dakshitad/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/zc-dakshitad/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/zc-dakshitad/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/zc-dakshitad/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/zc-dakshitad/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/zc-dakshitad/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/zc-dakshitad/.m2/repository/io/rest-assured/json-path/5.0.0/json-path-5.0.0.jar:/Users/zc-dakshitad/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/zc-dakshitad/.m2/repository/io/rest-assured/rest-assured-common/5.0.0/rest-assured-common-5.0.0.jar:/Users/zc-dakshitad/.m2/repository/io/rest-assured/xml-path/5.0.0/xml-path-5.0.0.jar:/Users/zc-dakshitad/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/zc-dakshitad/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/zc-dakshitad/.m2/repository/io/qameta/allure/allure-testng/2.17.3/allure-testng-2.17.3.jar:/Users/zc-dakshitad/.m2/repository/io/qameta/allure/allure-java-commons/2.17.3/allure-java-commons-2.17.3.jar:/Users/zc-dakshitad/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/zc-dakshitad/.m2/repository/io/qameta/allure/allure-model/2.17.3/allure-model-2.17.3.jar:/Users/zc-dakshitad/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/zc-dakshitad/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/zc-dakshitad/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/zc-dakshitad/.m2/repository/io/qameta/allure/allure-test-filter/2.17.3/allure-test-filter-2.17.3.jar:/Users/zc-dakshitad/.m2/repository/org/apache/poi/poi-ooxml/5.2.2/poi-ooxml-5.2.2.jar:/Users/zc-dakshitad/.m2/repository/org/apache/poi/poi/5.2.2/poi-5.2.2.jar:/Users/zc-dakshitad/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/zc-dakshitad/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/zc-dakshitad/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.2/poi-ooxml-lite-5.2.2.jar:/Users/zc-dakshitad/.m2/repository/org/apache/xmlbeans/xmlbeans/5.0.3/xmlbeans-5.0.3.jar:/Users/zc-dakshitad/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/zc-dakshitad/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/zc-dakshitad/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/zc-dakshitad/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/zc-dakshitad/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/zc-dakshitad"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-03-22"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/18/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/zc-dakshitad/Desktop/RestAssured"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/zc-dakshitad/Desktop/RestAssured/target/surefire/surefirebooter7492349343003484525.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18+0"/>
+    <property name="user.name" value="zc-dakshitad"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.5.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/zc-dakshitad/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/qs/2gp9_90x5tqgb3kv_bfr9j5r0000gp/T/"/>
+    <property name="java.version" value="18"/>
+    <property name="user.dir" value="/Users/zc-dakshitad/Desktop/RestAssured"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="US-ASCII"/>
+    <property name="java.library.path" value="/Users/zc-dakshitad/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="18+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="employee_record_extract_response" classname="EmpRecordResponseTest" time="2.465">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Cache-Control: no-cache, private, max-age=31536000
+Content-Type: application/json
+Date: Thu, 31 Mar 2022 16:59:52 GMT
+Display: staticcontent_sol
+Expires: Fri, 31 Mar 2023 16:59:52 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Referrer-Policy: 
+Response: 200
+Server: nginx
+Vary: Accept-Encoding
+Vary: Accept-Encoding,User-Agent,Origin
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 200
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Server-Cache: false
+X-Sol: pub_site
+Content-Length: 183
+
+{
+    "status": "success",
+    "data": {
+        "id": 2,
+        "employee_name": "Garrett Winters",
+        "employee_salary": 170750,
+        "employee_age": 63,
+        "profile_image": ""
+    },
+    "message": "Successfully! Record has been fetched."
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+[CallSiteClassLoader@2b2a4332] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2b2a4332] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4c030fe1] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4c030fe1] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@503556cb] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@503556cb] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4e2109fe] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4e2109fe] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@52f43225] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@52f43225] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@6cc8da1c] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@6cc8da1c] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@6df2a206] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@6df2a206] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4571cebe] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4571cebe] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@5432dca2] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@5432dca2] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@58636b50] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@58636b50] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@3bf5911d] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@3bf5911d] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@35329a05] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@35329a05] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7079f8f0] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7079f8f0] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2f6f4ac4] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2f6f4ac4] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@646cb2e] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@646cb2e] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@38848217] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@38848217] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@45c408a4] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@45c408a4] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@f237ae7] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@f237ae7] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@79617c3d] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@79617c3d] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@38cf4497] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@38cf4497] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7d551ec6] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7d551ec6] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@111cbcda] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@111cbcda] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@50734cea] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@50734cea] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@146add7b] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@146add7b] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@460b77d6] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@460b77d6] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@128a188a] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@128a188a] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1b732dd] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1b732dd] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@416d90f0] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@416d90f0] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@3f3a6091] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@3f3a6091] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+Cleaning up unclosed ZipFile for archive /Users/zc-dakshitad/Desktop/RestAssured/./singleEmpRecord/empid.xlsx
+[CallSiteClassLoader@6eab92f3] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@6eab92f3] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@701c482e] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@701c482e] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4fd92289] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4fd92289] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2ed84be9] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@2ed84be9] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4c0930c4] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4c0930c4] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1782896] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1782896] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@27b7204] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@27b7204] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@31b91435] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@31b91435] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@26d445e9] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@26d445e9] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@6f27730b] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@6f27730b] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@33b2ba25] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@33b2ba25] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4c8a9266] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4c8a9266] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1041ebba] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1041ebba] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4e343265] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@4e343265] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@5b32e0b1] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@5b32e0b1] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@34f24a11] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@34f24a11] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@36885319] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@36885319] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@44e4cf8a] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@44e4cf8a] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+]]></system-err>
+  </testcase>
+  <testcase name="validate_msg" classname="EmpResponseMsgTest" time="0.725">
+    <failure message="class io.restassured.path.xml.XmlPath cannot be cast to class java.lang.String (io.restassured.path.xml.XmlPath is in unnamed module of loader &apos;app&apos;; java.lang.String is in module java.base of loader &apos;bootstrap&apos;)" type="java.lang.ClassCastException"><![CDATA[java.lang.ClassCastException: class io.restassured.path.xml.XmlPath cannot be cast to class java.lang.String (io.restassured.path.xml.XmlPath is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+	at EmpResponseMsgTest.validate_msg(EmpResponseMsgTest.java:22)
+]]></failure>
+    <system-err><![CDATA[[CallSiteClassLoader@5dac6bc3] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@5dac6bc3] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@220f6a3c] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@220f6a3c] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1504b493] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@1504b493] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@30811f91] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@30811f91] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+]]></system-err>
+  </testcase>
+  <testcase name="validate_get_status_code" classname="com.rest.AllEmployeeTest" time="0.734">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Cache-Control: no-cache, private, max-age=31536000
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Thu, 31 Mar 2022 16:59:54 GMT
+Display: staticcontent_sol
+Expires: Fri, 31 Mar 2023 16:59:54 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Referrer-Policy: 
+Response: 200
+Server: nginx
+Vary: Accept-Encoding
+Vary: Accept-Encoding,User-Agent,Origin
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 200
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Server-Cache: false
+X-Sol: pub_site
+Content-Length: 631
+
+{
+    "status": "success",
+    "data": [
+        {
+            "id": 1,
+            "employee_name": "Tiger Nixon",
+            "employee_salary": 320800,
+            "employee_age": 61,
+            "profile_image": ""
+        },
+        {
+            "id": 2,
+            "employee_name": "Garrett Winters",
+            "employee_salary": 170750,
+            "employee_age": 63,
+            "profile_image": ""
+        },
+        {
+            "id": 3,
+            "employee_name": "Ashton Cox",
+            "employee_salary": 86000,
+            "employee_age": 66,
+            "profile_image": ""
+        },
+        {
+            "id": 4,
+            "employee_name": "Cedric Kelly",
+            "employee_salary": 433060,
+            "employee_age": 22,
+            "profile_image": ""
+        },
+        {
+            "id": 5,
+            "employee_name": "Airi Satou",
+            "employee_salary": 162700,
+            "employee_age": 33,
+            "profile_image": ""
+        },
+        {
+            "id": 6,
+            "employee_name": "Brielle Williamson",
+            "employee_salary": 372000,
+            "employee_age": 61,
+            "profile_image": ""
+        },
+        {
+            "id": 7,
+            "employee_name": "Herrod Chandler",
+            "employee_salary": 137500,
+            "employee_age": 59,
+            "profile_image": ""
+        },
+        {
+            "id": 8,
+            "employee_name": "Rhona Davidson",
+            "employee_salary": 327900,
+            "employee_age": 55,
+            "profile_image": ""
+        },
+        {
+            "id": 9,
+            "employee_name": "Colleen Hurst",
+            "employee_salary": 205500,
+            "employee_age": 39,
+            "profile_image": ""
+        },
+        {
+            "id": 10,
+            "employee_name": "Sonya Frost",
+            "employee_salary": 103600,
+            "employee_age": 23,
+            "profile_image": ""
+        },
+        {
+            "id": 11,
+            "employee_name": "Jena Gaines",
+            "employee_salary": 90560,
+            "employee_age": 30,
+            "profile_image": ""
+        },
+        {
+            "id": 12,
+            "employee_name": "Quinn Flynn",
+            "employee_salary": 342000,
+            "employee_age": 22,
+            "profile_image": ""
+        },
+        {
+            "id": 13,
+            "employee_name": "Charde Marshall",
+            "employee_salary": 470600,
+            "employee_age": 36,
+            "profile_image": ""
+        },
+        {
+            "id": 14,
+            "employee_name": "Haley Kennedy",
+            "employee_salary": 313500,
+            "employee_age": 43,
+            "profile_image": ""
+        },
+        {
+            "id": 15,
+            "employee_name": "Tatyana Fitzpatrick",
+            "employee_salary": 385750,
+            "employee_age": 19,
+            "profile_image": ""
+        },
+        {
+            "id": 16,
+            "employee_name": "Michael Silva",
+            "employee_salary": 198500,
+            "employee_age": 66,
+            "profile_image": ""
+        },
+        {
+            "id": 17,
+            "employee_name": "Paul Byrd",
+            "employee_salary": 725000,
+            "employee_age": 64,
+            "profile_image": ""
+        },
+        {
+            "id": 18,
+            "employee_name": "Gloria Little",
+            "employee_salary": 237500,
+            "employee_age": 59,
+            "profile_image": ""
+        },
+        {
+            "id": 19,
+            "employee_name": "Bradley Greer",
+            "employee_salary": 132000,
+            "employee_age": 41,
+            "profile_image": ""
+        },
+        {
+            "id": 20,
+            "employee_name": "Dai Rios",
+            "employee_salary": 217500,
+            "employee_age": 35,
+            "profile_image": ""
+        },
+        {
+            "id": 21,
+            "employee_name": "Jenette Caldwell",
+            "employee_salary": 345000,
+            "employee_age": 30,
+            "profile_image": ""
+        },
+        {
+            "id": 22,
+            "employee_name": "Yuri Berry",
+            "employee_salary": 675000,
+            "employee_age": 40,
+            "profile_image": ""
+        },
+        {
+            "id": 23,
+            "employee_name": "Caesar Vance",
+            "employee_salary": 106450,
+            "employee_age": 21,
+            "profile_image": ""
+        },
+        {
+            "id": 24,
+            "employee_name": "Doris Wilder",
+            "employee_salary": 85600,
+            "employee_age": 23,
+            "profile_image": ""
+        }
+    ],
+    "message": "Successfully! All records has been fetched."
+}
+]]></system-out>
+    <system-err><![CDATA[[CallSiteClassLoader@c157abf] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@c157abf] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7615666e] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@7615666e] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+]]></system-err>
+  </testcase>
+  <testcase name="verifyImageIsEmptyForAllEmployee" classname="com.rest.AllEmployeeTest" time="0.798">
+    <failure message="Cannot parse object because no supported Content-Type was specified in response. Content-Type was &apos;text/html; charset=UTF-8&apos;." type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/html; charset=UTF-8'.
+	at com.rest.AllEmployeeTest.verifyImageIsEmptyForAllEmployee(AllEmployeeTest.java:38)
+]]></failure>
+    <system-err><![CDATA[[CallSiteClassLoader@5c4516ec] error at io/qameta/allure/aspects/StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+[CallSiteClassLoader@5c4516ec] error at io/qameta/allure/aspects/AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
+]]></system-err>
+  </testcase>
+  <testcase name="single_employee_record_status_code" classname="com.rest.EmpRecordStatusTest" time="0.785">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Cache-Control: no-cache, private, max-age=31536000
+Content-Type: application/json
+Date: Thu, 31 Mar 2022 16:59:55 GMT
+Display: staticcontent_sol
+Expires: Fri, 31 Mar 2023 16:59:55 GMT
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Referrer-Policy: 
+Response: 200
+Server: nginx
+Vary: Accept-Encoding
+Vary: Accept-Encoding,User-Agent,Origin
+X-Ezoic-Cdn: Miss
+X-Middleton-Display: staticcontent_sol
+X-Middleton-Response: 200
+X-Origin-Cache-Control: no-cache, private
+X-Ratelimit-Limit: 60
+X-Ratelimit-Remaining: 58
+X-Server-Cache: false
+X-Sol: pub_site
+Content-Length: 183
+
+{
+    "status": "success",
+    "data": {
+        "id": 2,
+        "employee_name": "Garrett Winters",
+        "employee_salary": 170750,
+        "employee_age": 63,
+        "profile_image": ""
+    },
+    "message": "Successfully! Record has been fetched."
+}
+]]></system-out>
+  </testcase>
+</testsuite>
