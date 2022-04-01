@@ -1,13 +1,11 @@
-package com.rest;
 
 import org.testng.annotations.Test;
 import utils.ConfigReader;
 import utils.ExcelUtils;
 import java.io.IOException;
 import static io.restassured.RestAssured.given;
+public class EmpRecordStatusTest {
 
-
-public class EmpRecordStatusTest<JSONObject> {
     private static String baseUrl = ConfigReader.getProperty("hostUrl");
     private static String getEmpApi =  ConfigReader.getProperty("specificEmployeeApi");
 
@@ -31,12 +29,6 @@ public class EmpRecordStatusTest<JSONObject> {
 
 
 }
-
-
-
-
-
-
 
 
 
