@@ -1,7 +1,8 @@
 #base image
 FROM openjdk:8
 
-WORKDIR /src/test/java
-COPY . /src/usr/
-RUN ["javac", "RestAssured-1.0-SNAPSHOT.jar"]
-ENTRYPOINT ["java","RestAssured-1.0-SNAPSHOT.jar"]
+WORKDIR /Users/zc-dakshitad/Desktop/RestAssured
+COPY src /Users/zc-dakshitad/Desktop/
+COPY pom.xml /Users/zc-dakshitad/Desktop/
+COPY config.properties /Users/zc-dakshitad/Desktop/
+RUN mvn -f /Users/zc-dakshitad/Desktop/RestAssured/pom.xml clean test -D skipTests=false
