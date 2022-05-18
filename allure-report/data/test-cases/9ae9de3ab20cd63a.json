@@ -1,0 +1,120 @@
+{
+  "uid" : "9ae9de3ab20cd63a",
+  "name" : "To verify the Version in The Response Body Of API",
+  "fullName" : "SbdbApproachDataApi.validateVersion",
+  "historyId" : "7a41cbb8e927123d8961c7a61c4b992a",
+  "time" : {
+    "start" : 1652550130056,
+    "stop" : 1652550140783,
+    "duration" : 10727
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SbdbApproachDataApi"
+  }, {
+    "name" : "testClass",
+    "value" : "SbdbApproachDataApi"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateVersion"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "RestAssured"
+  }, {
+    "name" : "subSuite",
+    "value" : "SbdbApproachDataApi"
+  }, {
+    "name" : "host",
+    "value" : "ZC-Dakshita-Dhaundiyals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "1179@ZC-Dakshita-Dhaundiyals-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "339141bdd3b43f52",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1652549573440,
+        "stop" : 1652549582310,
+        "duration" : 8870
+      }
+    }, {
+      "uid" : "ebeb8283adadbc0c",
+      "status" : "broken",
+      "statusDetails" : "Invalid JSON expression:\nScript1.groovy: 1: Unexpected input: '                         /' @ line 1, column 27.\n                            /version\n                             ^\n\n1 error\n",
+      "time" : {
+        "start" : 1652549549024,
+        "stop" : 1652549557384,
+        "duration" : 8360
+      }
+    }, {
+      "uid" : "c91bfaef8792b6ac",
+      "status" : "broken",
+      "statusDetails" : "Invalid JSON expression:\nScript1.groovy: 1: Unexpected input: '/' @ line 1, column 28.\n                            ./version\n                              ^\n\n1 error\n",
+      "time" : {
+        "start" : 1652549517964,
+        "stop" : 1652549526136,
+        "duration" : 8172
+      }
+    }, {
+      "uid" : "eb2f6b9da02c72ae",
+      "status" : "broken",
+      "statusDetails" : "Invalid JSON expression:\nScript1.groovy: 1: Unexpected input: '...' @ line 1, column 26.\n                            ..version\n                            ^\n\n1 error\n",
+      "time" : {
+        "start" : 1652549478978,
+        "stop" : 1652549490897,
+        "duration" : 11919
+      }
+    }, {
+      "uid" : "8b68ca23590a6fdb",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1652549301531,
+        "stop" : 1652549310174,
+        "duration" : 8643
+      }
+    }, {
+      "uid" : "854cc6dcc0a9e573",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1652549235262,
+        "stop" : 1652549243922,
+        "duration" : 8660
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ae9de3ab20cd63a.json",
+  "parameterValues" : [ ]
+}

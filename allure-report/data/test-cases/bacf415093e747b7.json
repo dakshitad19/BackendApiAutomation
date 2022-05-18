@@ -1,0 +1,80 @@
+{
+  "uid" : "bacf415093e747b7",
+  "name" : "Check the status code of single_employee_record API",
+  "fullName" : "com.rest.SingleEmpRecordStatus.single_employee_record_status_code",
+  "historyId" : "ef528beaa44fb6646770924b01c68eb7",
+  "time" : {
+    "start" : 1648709128709,
+    "stop" : 1648709133683,
+    "duration" : 4974
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeClass",
+    "time" : {
+      "start" : 1648709123517,
+      "stop" : 1648709123523,
+      "duration" : 6
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.rest.SingleEmpRecordStatus"
+  }, {
+    "name" : "testClass",
+    "value" : "com.rest.SingleEmpRecordStatus"
+  }, {
+    "name" : "testMethod",
+    "value" : "single_employee_record_status_code"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "RestAssured"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.rest.SingleEmpRecordStatus"
+  }, {
+    "name" : "host",
+    "value" : "ZC-Dakshita-Dhaundiyals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "1661@ZC-Dakshita-Dhaundiyals-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bacf415093e747b7.json",
+  "parameterValues" : [ ]
+}

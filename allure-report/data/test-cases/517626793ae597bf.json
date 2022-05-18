@@ -1,0 +1,64 @@
+{
+  "uid" : "517626793ae597bf",
+  "name" : "To Verify the status code 200 of ALL Employee API ",
+  "fullName" : "AllEmployeeTest.validate_get_status_code",
+  "historyId" : "8fd4e2914232db86a0948c5650bdbe68",
+  "time" : {
+    "start" : 1649093306055,
+    "stop" : 1649093312038,
+    "duration" : 5983
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "AllEmployeeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "AllEmployeeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "validate_get_status_code"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "RestAssured"
+  }, {
+    "name" : "subSuite",
+    "value" : "AllEmployeeTest"
+  }, {
+    "name" : "host",
+    "value" : "ZC-Dakshita-Dhaundiyals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "2807@ZC-Dakshita-Dhaundiyals-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "517626793ae597bf.json",
+  "parameterValues" : [ ]
+}

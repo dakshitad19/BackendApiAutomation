@@ -1,0 +1,106 @@
+{
+  "uid" : "c758f047e0223cb0",
+  "name" : "To Verify the status code 200 of ALL Employee API ",
+  "fullName" : "AllEmployeeTest.validate_get_status_code",
+  "historyId" : "8fd4e2914232db86a0948c5650bdbe68",
+  "time" : {
+    "start" : 1649144028880,
+    "stop" : 1649144035454,
+    "duration" : 6574
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "AllEmployeeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "AllEmployeeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "validate_get_status_code"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "RestAssured"
+  }, {
+    "name" : "subSuite",
+    "value" : "AllEmployeeTest"
+  }, {
+    "name" : "host",
+    "value" : "ZC-Dakshita-Dhaundiyals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "1305@ZC-Dakshita-Dhaundiyals-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "12345",
+    "type" : "tms"
+  }, {
+    "name" : "1909",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2e32770899c76ea9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649140872537,
+        "stop" : 1649140878452,
+        "duration" : 5915
+      }
+    }, {
+      "uid" : "517626793ae597bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649093306055,
+        "stop" : 1649093312038,
+        "duration" : 5983
+      }
+    }, {
+      "uid" : "ead20e2011e0f07c",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <429>.\n",
+      "time" : {
+        "start" : 1649091955391,
+        "stop" : 1649091957359,
+        "duration" : 1968
+      }
+    }, {
+      "uid" : "ed5f11b9f003062b",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <429>.\n",
+      "time" : {
+        "start" : 1648804501524,
+        "stop" : 1648804507353,
+        "duration" : 5829
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c758f047e0223cb0.json",
+  "parameterValues" : [ ]
+}

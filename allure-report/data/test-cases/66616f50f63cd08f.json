@@ -1,0 +1,66 @@
+{
+  "uid" : "66616f50f63cd08f",
+  "name" : "To Verify the QueryParams In The API",
+  "fullName" : "EmpRecordResponseTest.verify_query_params",
+  "historyId" : "381bae1008b22f7bd3aa34be5d39a005",
+  "time" : {
+    "start" : 1652615437456,
+    "stop" : 1652615487361,
+    "duration" : 49905
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "EmpRecordResponseTest"
+  }, {
+    "name" : "testClass",
+    "value" : "EmpRecordResponseTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify_query_params"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "RestAssured"
+  }, {
+    "name" : "subSuite",
+    "value" : "EmpRecordResponseTest"
+  }, {
+    "name" : "host",
+    "value" : "ZC-Dakshita-Dhaundiyals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "1003@ZC-Dakshita-Dhaundiyals-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "66616f50f63cd08f.json",
+  "parameterValues" : [ ]
+}

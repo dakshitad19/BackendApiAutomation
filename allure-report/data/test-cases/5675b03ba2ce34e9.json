@@ -1,0 +1,64 @@
+{
+  "uid" : "5675b03ba2ce34e9",
+  "name" : "To Verify the status code of ALL Employee API ",
+  "fullName" : "com.rest.AllEmployeeTest.validate_get_status_code",
+  "historyId" : "d57b1d6f1a06b5898d347596e8a711db",
+  "time" : {
+    "start" : 1648730478609,
+    "stop" : 1648730484840,
+    "duration" : 6231
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.rest.AllEmployeeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.rest.AllEmployeeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "validate_get_status_code"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "RestAssured"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.rest.AllEmployeeTest"
+  }, {
+    "name" : "host",
+    "value" : "ZC-Dakshita-Dhaundiyals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "3014@ZC-Dakshita-Dhaundiyals-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5675b03ba2ce34e9.json",
+  "parameterValues" : [ ]
+}

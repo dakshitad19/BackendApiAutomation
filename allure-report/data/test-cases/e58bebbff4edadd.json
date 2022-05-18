@@ -1,0 +1,64 @@
+{
+  "uid" : "e58bebbff4edadd",
+  "name" : "Verify the specific msg in the response body successfully",
+  "fullName" : "EmpResponseMsgTest.validate_msg",
+  "historyId" : "a632c5ce80613e9ae5a78e495e997fe1",
+  "time" : {
+    "start" : 1648804516661,
+    "stop" : 1648804518690,
+    "duration" : 2029
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "EmpResponseMsgTest"
+  }, {
+    "name" : "testClass",
+    "value" : "EmpResponseMsgTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "validate_msg"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "RestAssured"
+  }, {
+    "name" : "subSuite",
+    "value" : "EmpResponseMsgTest"
+  }, {
+    "name" : "host",
+    "value" : "ZC-Dakshita-Dhaundiyals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "2246@ZC-Dakshita-Dhaundiyals-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e58bebbff4edadd.json",
+  "parameterValues" : [ ]
+}

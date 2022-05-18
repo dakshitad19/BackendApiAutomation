@@ -1,0 +1,64 @@
+{
+  "uid" : "83c01fa93bceba5f",
+  "name" : "To Verify the QueryParams In The API",
+  "fullName" : "AsteriodApiTest.verify_query_params",
+  "historyId" : "834a4ad59ced4665b6af7c6c52606598",
+  "time" : {
+    "start" : 1652615601926,
+    "stop" : 1652615618022,
+    "duration" : 16096
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "AsteriodApiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "AsteriodApiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify_query_params"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "RestAssured"
+  }, {
+    "name" : "subSuite",
+    "value" : "AsteriodApiTest"
+  }, {
+    "name" : "host",
+    "value" : "ZC-Dakshita-Dhaundiyals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "1044@ZC-Dakshita-Dhaundiyals-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "83c01fa93bceba5f.json",
+  "parameterValues" : [ ]
+}

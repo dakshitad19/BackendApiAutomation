@@ -1,1 +1,0 @@
-{"uuid":"5feda788-d4a1-4490-920b-c3d58e398edd","name":"com.rest.SingleEmpRecordStatusTest","children":["77701908-c0cc-4f7c-bcfb-fe7af35fabf8"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1648721016645,"stop":1648721016651}],"afters":[],"start":1648721016573,"stop":1648721029404}

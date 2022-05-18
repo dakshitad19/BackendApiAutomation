@@ -1,0 +1,64 @@
+{
+  "uid" : "e66bd4a9023666ec",
+  "name" : "To generate the entire Response of Single Employee Record",
+  "fullName" : "SingleEmpResponse.employee_record_extract_response",
+  "historyId" : "a87429a2efc44b47a3bf5926b60d07ab",
+  "time" : {
+    "start" : 1648709176744,
+    "stop" : 1648709182482,
+    "duration" : 5738
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SingleEmpResponse"
+  }, {
+    "name" : "testClass",
+    "value" : "SingleEmpResponse"
+  }, {
+    "name" : "testMethod",
+    "value" : "employee_record_extract_response"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "RestAssured"
+  }, {
+    "name" : "subSuite",
+    "value" : "SingleEmpResponse"
+  }, {
+    "name" : "host",
+    "value" : "ZC-Dakshita-Dhaundiyals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "1668@ZC-Dakshita-Dhaundiyals-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e66bd4a9023666ec.json",
+  "parameterValues" : [ ]
+}

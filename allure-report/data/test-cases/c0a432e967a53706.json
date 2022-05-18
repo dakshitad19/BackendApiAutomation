@@ -1,0 +1,64 @@
+{
+  "uid" : "c0a432e967a53706",
+  "name" : "To verify response body pattern of Single Employee Record",
+  "fullName" : "EmpRecordResponseTest.employee_record_extract_response",
+  "historyId" : "eeb1cfcb0ed35f9c1b70dfa4ab76bf8a",
+  "time" : {
+    "start" : 1648751416704,
+    "stop" : 1648751424029,
+    "duration" : 7325
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "EmpRecordResponseTest"
+  }, {
+    "name" : "testClass",
+    "value" : "EmpRecordResponseTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "employee_record_extract_response"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "RestAssured"
+  }, {
+    "name" : "subSuite",
+    "value" : "EmpRecordResponseTest"
+  }, {
+    "name" : "host",
+    "value" : "ZC-Dakshita-Dhaundiyals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "4563@ZC-Dakshita-Dhaundiyals-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0a432e967a53706.json",
+  "parameterValues" : [ ]
+}

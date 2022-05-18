@@ -1,0 +1,101 @@
+{
+  "uid" : "264dde4a243c0f4f",
+  "name" : "To generate the entire Response of Single Employee Record",
+  "fullName" : "SingleEmpResponse.employee_record_extract_response",
+  "historyId" : "a87429a2efc44b47a3bf5926b60d07ab",
+  "time" : {
+    "start" : 1648709376762,
+    "stop" : 1648709377657,
+    "duration" : 895
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SingleEmpResponse"
+  }, {
+    "name" : "testClass",
+    "value" : "SingleEmpResponse"
+  }, {
+    "name" : "testMethod",
+    "value" : "employee_record_extract_response"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "RestAssured"
+  }, {
+    "name" : "subSuite",
+    "value" : "SingleEmpResponse"
+  }, {
+    "name" : "host",
+    "value" : "ZC-Dakshita-Dhaundiyals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "1706@ZC-Dakshita-Dhaundiyals-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e66bd4a9023666ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648709176744,
+        "stop" : 1648709182482,
+        "duration" : 5738
+      }
+    }, {
+      "uid" : "49a1ab3a9d55b680",
+      "status" : "broken",
+      "statusDetails" : "Target host is null",
+      "time" : {
+        "start" : 1648708056818,
+        "stop" : 1648708061808,
+        "duration" : 4990
+      }
+    }, {
+      "uid" : "c95c0c34a3223213",
+      "status" : "broken",
+      "statusDetails" : "Target host is null",
+      "time" : {
+        "start" : 1648707098230,
+        "stop" : 1648707102352,
+        "duration" : 4122
+      }
+    }, {
+      "uid" : "ff2030628fdc1e29",
+      "status" : "broken",
+      "statusDetails" : "Target host is null",
+      "time" : {
+        "start" : 1648706918966,
+        "stop" : 1648706922516,
+        "duration" : 3550
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "264dde4a243c0f4f.json",
+  "parameterValues" : [ ]
+}

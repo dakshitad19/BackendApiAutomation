@@ -1,0 +1,70 @@
+{
+  "uid" : "b71e1bb96afb36d6",
+  "name" : "To Verify the status code 200 of SBDB Close-Approach Data API ",
+  "fullName" : "SbdbApproachDataApi.validate_get_status_code",
+  "historyId" : "7b858cb98227c21b5b124bd862e80ba6",
+  "time" : {
+    "start" : 1652549198792,
+    "stop" : 1652549206489,
+    "duration" : 7697
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SbdbApproachDataApi"
+  }, {
+    "name" : "testClass",
+    "value" : "SbdbApproachDataApi"
+  }, {
+    "name" : "testMethod",
+    "value" : "validate_get_status_code"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "RestAssured"
+  }, {
+    "name" : "subSuite",
+    "value" : "SbdbApproachDataApi"
+  }, {
+    "name" : "host",
+    "value" : "ZC-Dakshita-Dhaundiyals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "1086@ZC-Dakshita-Dhaundiyals-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "12345",
+    "type" : "tms"
+  }, {
+    "name" : "1909",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b71e1bb96afb36d6.json",
+  "parameterValues" : [ ]
+}

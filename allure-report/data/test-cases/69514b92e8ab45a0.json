@@ -1,0 +1,64 @@
+{
+  "uid" : "69514b92e8ab45a0",
+  "name" : "To verify profile_image is blank for each employee",
+  "fullName" : "com.rest.AllEmployeeTest.verifyImageIsEmptyForAllEmployee",
+  "historyId" : "afc394e2df4c0c2c37100a8b80e8f96a",
+  "time" : {
+    "start" : 1648730693521,
+    "stop" : 1648730695166,
+    "duration" : 1645
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.rest.AllEmployeeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.rest.AllEmployeeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyImageIsEmptyForAllEmployee"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "RestAssured"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.rest.AllEmployeeTest"
+  }, {
+    "name" : "host",
+    "value" : "ZC-Dakshita-Dhaundiyals-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "3030@ZC-Dakshita-Dhaundiyals-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69514b92e8ab45a0.json",
+  "parameterValues" : [ ]
+}

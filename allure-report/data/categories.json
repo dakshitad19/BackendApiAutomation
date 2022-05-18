@@ -1,0 +1,131 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Illegal character in path at index 32: http://dummy.restapiexample.com/ ",
+      "children" : [ {
+        "name" : "employee_fetch_record_file",
+        "uid" : "fe4f45ab81d0e83c",
+        "parentUid" : "ca8594f6274c53ed10414a2cc45f61f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648707262542,
+          "stop" : 1648707262572,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca8594f6274c53ed10414a2cc45f61f7"
+    }, {
+      "name" : "Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/html; charset=UTF-8'.",
+      "children" : [ {
+        "name" : "To verify profile_image is blank for each employee",
+        "uid" : "6057ed332f2b0d19",
+        "parentUid" : "6a880d47753e35dfae374f489c9252d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649093317166,
+          "stop" : 1649093318158,
+          "duration" : 992
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a880d47753e35dfae374f489c9252d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 expectation failed.\nExpected status code <200> but was <429>.\n",
+      "children" : [ {
+        "name" : "To Verify the status code of Employee API ",
+        "uid" : "19f9c02de52b4b7a",
+        "parentUid" : "e6d753ce839107360ae36df50f331666",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648709361112,
+          "stop" : 1648709367197,
+          "duration" : 6085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Assertion to Fetch a single employee record using excel  & check status  200 ",
+        "uid" : "ae8c3b22baa7a73f",
+        "parentUid" : "e6d753ce839107360ae36df50f331666",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648781366824,
+          "stop" : 1648781368065,
+          "duration" : 1241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 11,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Assertion to Fetch a single employee record using excel  & check status  200 ",
+        "uid" : "e65b3db1dbfa75c4",
+        "parentUid" : "e6d753ce839107360ae36df50f331666",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649093320746,
+          "stop" : 1649093321847,
+          "duration" : 1101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e6d753ce839107360ae36df50f331666"
+    }, {
+      "name" : "1 expectation failed.\nXML path status doesn't match.\nExpected: iterable with items [\"success\"] in any order\n  Actual: <nullnullToo Many Requestsnullnull\n            html, body {\n                background-color: #fff;\n                color: #636b6f;\n                font-family: 'Nunito', sans-serif;\n                font-weight: 100;\n                height: 100vh;\n                margin: 0;\n            }\n\n            .full-height {\n                height: 100vh;\n            }\n\n            .flex-center {\n                align-items: center;\n                display: flex;\n                justify-content: center;\n            }\n\n            .position-ref {\n                position: relative;\n            }\n\n            .code {\n                border-right: 2px solid;\n                font-size: 26px;\n                padding: 0 15px 0 15px;\n                text-align: center;\n            }\n\n            .message {\n                font-size: 18px;\n                text-align: center;\n            }\n        \n                429            \n                Too Many Requests            >\n",
+      "children" : [ {
+        "name" : "employee_record_verify_msg",
+        "uid" : "9917db1c0cb452d5",
+        "parentUid" : "ccf1e2795fd3a14dc3305a454ee61a02",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648709373686,
+          "stop" : 1648709375796,
+          "duration" : 2110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ccf1e2795fd3a14dc3305a454ee61a02"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
