@@ -37,14 +37,11 @@
                       baseUri(baseUrl).
                         when().
                         get(comurl).then().log().body();
-                      //then().extract().path("signature.version");
-              //Assert.assertTrue(version.equals("1.4")); // check version assertion
-                //System.out.println(version);
 
 
                 }
 
-                @Test(description = "")
+                @Test(description = "verifying the comments for each post which belongs to user id 3")
                 public void validateEmails(){
                     HashMap<java.lang.String, java.lang.String> map = new HashMap<>();
                     map.put("postId","21");
@@ -61,7 +58,7 @@
                             baseUri(baseUrl).
                             when().
                             get(comurl).then().log().body();
-//hi
+
 
 
 
