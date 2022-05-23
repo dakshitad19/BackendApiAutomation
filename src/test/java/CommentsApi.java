@@ -1,6 +1,7 @@
 
     import io.qameta.allure.Issue;
     import io.qameta.allure.TmsLink;
+    import org.hamcrest.Matchers;
     import org.testng.annotations.Test;
     import utils.ConfigReader;
     import java.io.IOException;
@@ -43,7 +44,7 @@
 
                 @Test(description = "verifying the comments for each post which belongs to user id 3")
                 public void validateEmails(){
-                    HashMap<java.lang.String, java.lang.String> map = new HashMap<>();
+                    HashMap<java.lang.String, java.lang.String> map = new HashMap<>(); //passing multiple params inside the MAP
                     map.put("postId","21");
                     map.put("postId","22");
                     map.put("postId","23");
@@ -57,10 +58,11 @@
                  given().queryParam(String.valueOf(map)).
                             baseUri(baseUrl).
                             when().
-                            get(comurl).then().log().body();
+                            get(comurl).then().log().all().
+                         body("[0].email", Matchers.equalTo("Lura@rod.tv")).
+                         assertThat().extract().path("[0].email", String.valueOf("Lura@rod.tv"));
 
-
-
+//comment
 
                 }
 
